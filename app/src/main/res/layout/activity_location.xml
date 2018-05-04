@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="cl.neoxcore.androiddemo.MainActivity"
+    tools:context="cl.neoxcore.androiddemo.LocationActivity"
     android:orientation="vertical">
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Go to Location"
-        android:id="@+id/btnLocation"/>
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/recycler"
+        android:id="@+id/recyclerLocation"
         android:padding="10dp"/>
 
 </LinearLayout>

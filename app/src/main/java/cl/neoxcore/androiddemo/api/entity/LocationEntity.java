@@ -3,21 +3,17 @@ package cl.neoxcore.androiddemo.api.entity;
 import com.google.gson.annotations.Expose;
 
 /**
- * Created by Fabian Baez on 19-01-18.
- * www.neoxcore.cl
+ * Created by ob_barbara on 20-01-18.
  */
 
-public class FilmEntity {
+public class LocationEntity {
     @Expose
     public String id;
     @Expose
-    public String title;
+    public String name;
     @Expose
-    public String description;
+    public String climate;
     @Expose
-    public String director;
-
-
-
+    public String terrain;
 
 }

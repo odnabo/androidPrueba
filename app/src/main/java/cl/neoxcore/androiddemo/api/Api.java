@@ -1,6 +1,12 @@
 package cl.neoxcore.androiddemo.api;
 
+import java.util.List;
+
+import cl.neoxcore.androiddemo.api.entity.FilmEntity;
+import cl.neoxcore.androiddemo.api.entity.LocationEntity;
+import retrofit2.Call;
 import retrofit2.Retrofit;
+import retrofit2.http.GET;
 
 /**
  * Created by Fabian Baez on 08-06-15.
@@ -25,12 +31,13 @@ public class Api {
 
 
     public interface ApiInterface {
-/*
+
 
         @GET("films")
-        void getInfo(Call<List<FilmEntity>> call);
-*/
+        Call<List<FilmEntity>> getFilms();
 
+        @GET("locations")
+        Call<List<LocationEntity>> getLocations();
 
     }
 }
